@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro</title>
+</head>
+<body>
+	<a href="index.html">Home</a>
+	<h2>Cadastro</h2>
+
+	<form>
+		Nome:<br>
+		<input type="text" name="usuario"><br><br>
+
+		Genero:<br>
+		<input type="radio" name="sexo" value="m">Masculino<br>
+		<input type="radio" name="sexo" value="f">Feminino<br><br>
+
+		Estado<br>
+		<select name="estado">
+			<option value="sp">SP</option>
+			<option value="rj">RJ</option>
+			<option value="mg">MG</option>
+			<option value="es">ES</option>
+			<option value="pr">PR</option>
+		</select>
+		<br><br>
+
+		Interesses<br>
+		<input type="checkbox" name="interesse">Front-End<br>
+		<input type="checkbox" name="interesse">Back-End<br>
+		<input type="checkbox" name="interesse">Full-Stack<br><br>
+
+		Senha:<br>
+		<input type="password" name="senha"><br>
+
+		Confirmar senha:<br>
+		<input type="password" name="confirmacaodesenha"><br><br>
+
+		Tem algo que queira nos dizer?<br>
+		<textarea></textarea>
+		<br><br>
+
+		<input type="submit" value="Enter">
+	</form>
+</body>
+</html>
